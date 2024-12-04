@@ -1,0 +1,17 @@
+portfolioitems:
+  # portfolio category
+  - title: Photography
+    # items within a category
+    portfolioitem:
+      - name: Gerês National Park 2024
+        image: 'images/portfolio/202410-Geres-02193.jpg'
+        link: https://www.behance.net/gallery/210588803/Geres-October-2024
+        description: 'Family holidays in Gerês National Park, Portugal.'
+        tags:
+          - Photography
+          - Nature
+        status: 'Finished'
+        start: '2024 October'
+        end: '2024 October'
+        authors:
+          - João Fialho Rodrigues
