@@ -12,6 +12,64 @@ portfolioitems:
           - Nature
         status: 'Finished'
         start: '2024 October'
-        end: '2024 October'
+        authors:
+          - João Fialho Rodrigues
+
+      - name: Azores 2024
+        image: 'images/portfolio/202409-Azores-01858.jpg'
+        link: https://www.behance.net/gallery/210585297/Acores-September-2024
+        description: 'Exploring the volcanic islands of the Azores, Portugal.'
+        tags:
+          - Photography
+          - Islands
+        status: 'Finished'
+        start: '2024 September'
+        authors:
+          - João Fialho Rodrigues
+
+      - name: Italy 2024
+        image: 'images/portfolio/202406-Italy-01452.jpg'
+        link: https://www.behance.net/gallery/210585019/Venezia-June-2024
+        description: 'A photographic journey through the scenic landscapes of Italy.'
+        tags:
+          - Photography
+          - Travel
+        status: 'Finished'
+        start: '2024 June'
+        authors:
+          - João Fialho Rodrigues
+
+      - name: Costa Vicentina 2024
+        image: 'images/portfolio/202405-Costa-Vicentina-01062-2.jpg'
+        link: https://www.behance.net/gallery/201514511/Portuguese-coast-villages-moments
+        description: 'Discovering the wild beauty of Costa Vicentina, Portugal.'
+        tags:
+          - Photography
+          - Coastline
+        status: 'Finished'
+        start: '2024 May'
+        authors:
+          - João Fialho Rodrigues
+
+      - name: Guimarães 2024
+        image: 'images/portfolio/202402-Guimaraes-00885.jpg'
+        description: 'Capturing the essence of the birthplace of Portugal in Guimarães.'
+        tags:
+          - Photography
+          - Heritage
+        status: 'Finished'
+        start: '2024 February'
+        authors:
+          - João Fialho Rodrigues
+
+      - name: Óbidos 2023
+        image: 'images/portfolio/202311-Obidos-0001.jpg'
+        link: https://www.behance.net/gallery/201513303/Winter-Castle
+        description: 'Exploring the medieval charm of Óbidos, Portugal.'
+        tags:
+          - Photography
+          - Architecture
+        status: 'Finished'
+        start: '2023 November'
         authors:
           - João Fialho Rodrigues

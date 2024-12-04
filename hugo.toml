@@ -5,14 +5,19 @@ title = 'Home'
 
 [params]
 title = "João Fialho Rodrigues"
-author = "João Fialho Rodrigues"
-description = "Personal Blog"
+author = ""
+description = "Data Engineer / Personal Blog"
 profilePicture = "images/profile.jpg"
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
 title = "Linkedin"
 url = "https://www.linkedin.com/in/joaohfrodrigues/"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "Github"
+url = "https://github.com/joaohfrodrigues"
 
 [[params.socialIcons]]
 icon = "fas fa-envelope"
