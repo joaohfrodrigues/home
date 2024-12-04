@@ -1,0 +1,45 @@
+baseURL = 'https://joaohfrodrigues.github.io/'
+languageCode = 'en-us'
+theme='anatole'
+title = 'Home'
+
+[params]
+title = "João Fialho Rodrigues"
+author = "João Fialho Rodrigues"
+description = "Personal Blog"
+profilePicture = "images/profile.jpg"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/joaohfrodrigues/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:joao.fialhorodrigues@gmail.com"
+
+[menu]
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Blog"
+  weight = 200
+  identifier = "post"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "Portfolio"
+  weight = 300
+  identifier = "portfolio"
+  url = "/portfolio/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
