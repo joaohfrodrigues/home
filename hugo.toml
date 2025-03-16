@@ -8,7 +8,13 @@ title = "João Fialho Rodrigues"
 author = ""
 description = "Data Engineer / Personal Blog"
 profilePicture = "images/profile.jpg"
-mainSections = ["post", "portfolio"]
+# postSectionName = "blog"
+mainSections = ["post"]
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
@@ -29,23 +35,24 @@ url = "mailto:joao.fialhorodrigues@gmail.com"
   [[menu.main]]
   name = "Home"
   identifier = "home"
-  weight = 100
+  weight = 1
   url = "/"
 
   [[menu.main]]
+  name = "About"
+  weight = 2
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
   name = "Blog"
-  weight = 200
-  identifier = "post"
-  url = "/post/"
+  weight = 3
+  identifier = "blog"
+  url = "/post/blog/"
 
   [[menu.main]]
   name = "Photography"
-  weight = 300
-  identifier = "portfolio"
-  url = "/portfolio/"
+  weight = 4
+  identifier = "photography"
+  url = "/post/photography/"
 
-  [[menu.main]]
-  name = "About"
-  weight = 300
-  identifier = "about"
-  url = "/about/"
