@@ -3,17 +3,15 @@ languageCode = 'en-us'
 theme='anatole'
 title = 'Home'
 
-[taxonomies]
-    category = "categories"
-    series = "series"
-    tag = "tags"
-
 [params]
 title = "João Fialho Rodrigues"
 author = "João"
 description = "Data Engineer / Personal Blog"
 profilePicture = "images/profile.jpg"
 mainSections = ["post"]
+contentratio = 0.8
+relatedPosts = true
+numberOfRelatedPosts = 2
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
@@ -55,3 +53,7 @@ url = "mailto:joao.fialhorodrigues@gmail.com"
   identifier = "photography"
   url = "/post/photography/"
 
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"

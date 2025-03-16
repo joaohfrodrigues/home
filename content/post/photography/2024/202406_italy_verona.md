@@ -1,4 +1,5 @@
 +++
+series = 'italy'
 author = "João Fialho Rodrigues"
 title = "Italy 2024: Verona"
 date = "2024-06-01"
@@ -6,7 +7,6 @@ description = "Visiting Verona, a beautiful city in the north of Italy"
 tags = [
     "photography", "city", "italy", "verona"
 ]
-series = "italy"
 +++
 
 city center 3 pics
