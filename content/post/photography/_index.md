@@ -1,5 +1,6 @@
----
-title: 'Portfolio'
-draft: false
-description: 'Welcome to my Portfolio!'
----
++++
+aliases = ["photos", "photography"]
+title = "Photography"
+author = "João Fialho Rodrigues"
+tags = ["index"]
++++

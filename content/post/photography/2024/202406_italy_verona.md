@@ -4,9 +4,9 @@ title = "Italy 2024: Verona"
 date = "2024-06-01"
 description = "Visiting Verona, a beautiful city in the north of Italy"
 tags = [
-    "city", "italy", "verona"
+    "photography", "city", "italy", "verona"
 ]
-series = "italy_2024"
+series = "italy"
 +++
 
 city center 3 pics

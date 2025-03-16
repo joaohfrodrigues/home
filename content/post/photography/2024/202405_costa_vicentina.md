@@ -4,7 +4,7 @@ title = "Costa Vicentina 2024"
 date = "2024-05-15"
 description = "Photos from the southern west of Portugal on a Spring week."
 tags = [
-    "town", "portugal", "nature", "beach"
+    "photography", "town", "portugal", "nature", "beach"
 ]
 +++
 

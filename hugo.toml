@@ -3,18 +3,17 @@ languageCode = 'en-us'
 theme='anatole'
 title = 'Home'
 
-[params]
-title = "João Fialho Rodrigues"
-author = ""
-description = "Data Engineer / Personal Blog"
-profilePicture = "images/profile.jpg"
-# postSectionName = "blog"
-mainSections = ["post"]
-
 [taxonomies]
     category = "categories"
     series = "series"
     tag = "tags"
+
+[params]
+title = "João Fialho Rodrigues"
+author = "João"
+description = "Data Engineer / Personal Blog"
+profilePicture = "images/profile.jpg"
+mainSections = ["post"]
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
