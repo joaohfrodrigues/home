@@ -8,6 +8,7 @@ title = "João Fialho Rodrigues"
 author = ""
 description = "Data Engineer / Personal Blog"
 profilePicture = "images/profile.jpg"
+mainSections = ["post", "portfolio"]
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
@@ -38,7 +39,7 @@ url = "mailto:joao.fialhorodrigues@gmail.com"
   url = "/post/"
 
   [[menu.main]]
-  name = "Portfolio"
+  name = "Photography"
   weight = 300
   identifier = "portfolio"
   url = "/portfolio/"
