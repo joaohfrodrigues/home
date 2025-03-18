@@ -4,14 +4,18 @@ title = "Óbidos 2023"
 date = "2023-11-15"
 description = "Photos from a weekend trip to the medieval town of Óbidos, Portugal"
 tags = [
-    "photography", "town", "castle", "portugal"
+    "photography", "portugal", "travel"
 ]
 thumbnail= "https://images.unsplash.com/photo-1742122208689-6f1f093a8e54"
 +++
 
 First outing with new camera, a sunny Winter day in Óbidos.
 
-![house_image_1](https://images.unsplash.com/photo-1742122213684-87a504ebde1b) ![house_image_2](https://images.unsplash.com/photo-1742122214371-ef2b504c0f62 )
+<div class="image-row">
+    <img src="https://images.unsplash.com/photo-1742122213684-87a504ebde1b" width="49%"/>
+    <img src="https://images.unsplash.com/photo-1742122214371-ef2b504c0f62" width="49%"/>
+</div>
+
 *House in the medieval town*
 
 ![castle](https://images.unsplash.com/photo-1742122208689-6f1f093a8e54)

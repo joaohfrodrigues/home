@@ -2,6 +2,14 @@ baseURL = 'https://joaohfrodrigues.github.io/'
 languageCode = 'en-us'
 theme='anatole'
 title = 'Home'
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
 
 [params]
 title = "João Fialho Rodrigues"
@@ -11,7 +19,8 @@ profilePicture = "images/profile.jpg"
 mainSections = ["post"]
 contentratio = 0.8
 relatedPosts = true
-numberOfRelatedPosts = 2
+numberOfRelatedPosts = 3
+customCSS = ["css/custom.css"]
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
@@ -53,7 +62,12 @@ url = "mailto:joao.fialhorodrigues@gmail.com"
   identifier = "photography"
   url = "/post/photography/"
 
-[taxonomies]
-    category = "categories"
-    series = "series"
-    tag = "tags"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[pagination]
+  disableAliases = false
+  pagerSize = 5
+  path = 'page'
