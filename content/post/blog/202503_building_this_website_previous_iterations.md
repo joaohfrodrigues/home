@@ -4,8 +4,9 @@ title = "Building this website: Previous iterations"
 date = "2025-03-16"
 description = "The story behind this site and how it was built"
 tags = [
-    "website", "tech"
+    "hugo", "website"
 ]
+categories = ["development"]
 series = "building_this_website"
 toc = true
 +++

@@ -13,7 +13,7 @@ enableRobotsTXT = true
 
 [params]
 title = "João Fialho Rodrigues"
-author = "João"
+author = "João Rodrigues"
 description = "Data Engineer / Personal Blog"
 profilePicture = "images/profile.jpg"
 mainSections = ["post"]
@@ -71,3 +71,14 @@ url = "mailto:joao.fialhorodrigues@gmail.com"
   disableAliases = false
   pagerSize = 5
   path = 'page'
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+[[related.indices]]
+  name = 'keywords'
+  weight = 100
+[[related.indices]]
+  name = 'tags'
+  weight = 80

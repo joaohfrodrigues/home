@@ -4,8 +4,9 @@ title = "Óbidos 2023"
 date = "2023-11-15"
 description = "Photos from a weekend trip to the medieval town of Óbidos, Portugal"
 tags = [
-    "photography", "portugal", "travel"
+    "portugal", "travel"
 ]
+categories = ["photography"]
 thumbnail= "https://images.unsplash.com/photo-1742122208689-6f1f093a8e54"
 +++
 
