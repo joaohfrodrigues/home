@@ -13,10 +13,11 @@
     {{ end }}
     <div class="gallery-card-content">
       <h3>{{ .Title }}</h3>
-      <div class="gallery-card-date">{{ .Date.Format "January 2, 2006" }}</div>
+      <div class="gallery-card-tags">
       {{ with .Page.Params.Tags }}
         {{ partial "taxonomy/tags.html" . }}
       {{ end }}
+      </div>
     </div>
   </a>
 </div>
