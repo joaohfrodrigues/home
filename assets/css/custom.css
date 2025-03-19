@@ -1,12 +1,15 @@
 .image-row {
     display: flex;
     gap: 10px; /* Adjust spacing between images */
+    position: relative; /* Ensure it stays in the normal document flow */
+    z-index: auto; /* Remove any stacking context that might override other elements */
 }
 
 .image-row img {
     max-width: 100%; /* Ensure the image does not exceed its container */
     height: auto;    /* Maintain the aspect ratio */
     object-fit: contain; /* Ensures the image fits within its space without cropping */
+    z-index: auto; /* Ensure images do not override other elements */
 }
 
 /* Default style for all categories */
