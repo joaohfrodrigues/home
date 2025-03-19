@@ -8,3 +8,48 @@
     height: auto;    /* Maintain the aspect ratio */
     object-fit: contain; /* Ensures the image fits within its space without cropping */
 }
+
+/* Default style for all categories */
+.category {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-right: 5px;
+    text-decoration: none; /* Remove underline */
+}
+
+.category[href="/categories/development/"] {
+    background-color: #A7C7E7; /* Soft pastel blue */
+    color: #1E3A5F !important; /* Dark blue text for contrast */
+}
+
+.category[href="/categories/design/"] {
+    background-color: #B8E0D2; /* Soft pastel green */
+    color: #1E4D3A !important; /* Dark green text for contrast */
+}
+
+.category[href="/categories/photography/"] {
+    background-color: #FBE7C6; /* Soft pastel yellow */
+    color: #5A4A1E !important; /* Dark brown text for contrast */
+}
+
+.category[href="/categories/travel/"] {
+    background-color: #D4C1EC; /* Soft pastel purple */
+    color: #3A2F5F !important; /* Dark purple text for contrast */
+}
+
+.category[href="/categories/nature/"] {
+    background-color: #F5C6D6; /* Soft pastel pink */
+    color: #5F1E3A !important; /* Dark red text for contrast */
+}
+
+.post__footer-reading-time {
+    font-size: .9em; /* Adjust the size as needed */
+}
+
+.welcome-message {
+    text-align: center;
+    margin: 50px auto; /* Add spacing around the message */
+    max-width: 800px; /* Optional: Limit the width for better readability */
+}
+

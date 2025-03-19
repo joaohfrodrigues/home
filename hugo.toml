@@ -1,0 +1,90 @@
+baseURL = 'https://joaohfrodrigues.github.io/'
+languageCode = 'en'
+theme='anatole'
+title = 'Home'
+enableEmoji = true
+enableRobotsTXT = true
+
+# Limit the word number for the photography posts
+summarylength = 10
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+# Enable custom html in markdown
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[pagination]
+  disableAliases = false
+  pagerSize = 5
+  path = 'page'
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+[[related.indices]]
+  name = 'keywords'
+  weight = 100
+[[related.indices]]
+  name = 'tags'
+  weight = 80
+
+# PARAMS
+[params]
+  title = "João Fialho Rodrigues"
+  author = "João Rodrigues"
+  description = "Data Engineer"
+  profilePicture = "images/profile.jpg"
+  mainSections = ["post"]
+  contentratio = 0.8
+  relatedPosts = true
+  numberOfRelatedPosts = 3
+  customCSS = ["css/custom.css"]
+  showReadingTime = true
+
+[[params.socialIcons]]
+  icon = "fab fa-linkedin"
+  title = "Linkedin"
+  url = "https://www.linkedin.com/in/joaohfrodrigues/"
+
+[[params.socialIcons]]
+  icon = "fab fa-github"
+  title = "Github"
+  url = "https://github.com/joaohfrodrigues"
+
+[[params.socialIcons]]
+  icon = "fas fa-envelope"
+  title = "e-mail"
+  url = "mailto:joao.fialhorodrigues@gmail.com"
+
+# MENUS
+[menu]
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 1
+  url = "/"
+
+  [[menu.main]]
+  name = "About"
+  identifier = "about"
+  weight = 2
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Blog"
+  identifier = "blog"
+  weight = 3
+  url = "/post/blog/"
+
+  [[menu.main]]
+  name = "Photography"
+  identifier = "photography"
+  weight = 4
+  url = "/post/photography/"
