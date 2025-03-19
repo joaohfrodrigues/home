@@ -1,0 +1,36 @@
+/* Center alignment for the tags and categories sections */
+.sidebar__tags,
+.sidebar__categories {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.sidebar__tags h3,
+.sidebar__categories h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Tag Cloud Styling */
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.tag-cloud-item {
+  padding: 5px 10px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+/* Category List Styling */
+.category-list {
+  padding: 0;
+  list-style: none;
+}

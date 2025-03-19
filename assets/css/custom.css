@@ -12,13 +12,23 @@
     z-index: auto; /* Ensure images do not override other elements */
 }
 
-/* Default style for all categories */
 .category {
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 0.9em;
-    margin-right: 5px;
+    display: inline-block; /* Ensure categories are inline elements */
+    margin: 5px 10px; /* Add spacing between categories */
+    padding: 5px 10px; /* Add padding for better spacing */
+    border-radius: 5px; /* Keep the rounded corners */
     text-decoration: none; /* Remove underline */
+    font-size: 0.9em; /* Ensure consistent font size */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effects */
+  }
+  
+.category:hover {
+filter: brightness(0.95); /* Slightly darken on hover */
+}
+
+.category-count {
+font-size: 0.8em; /* Smaller font size for the count */
+color: inherit; /* Inherit the text color */
 }
 
 .category[href="/categories/development/"] {

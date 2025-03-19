@@ -45,7 +45,7 @@ summarylength = 10
   contentratio = 0.8
   relatedPosts = true
   numberOfRelatedPosts = 3
-  customCSS = ["css/custom.css", "css/gallery.css"]
+  customCSS = ["css/custom.css", "css/gallery.css", "css/sidebar.css"]
   showReadingTime = true
 
 [[params.socialIcons]]

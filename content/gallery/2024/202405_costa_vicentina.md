@@ -1,6 +1,6 @@
 +++
 author = "João Fialho Rodrigues"
-title = "Costa Vicentina 2024"
+title = "24' Costa Vicentina"
 date = "2024-05-15"
 description = "Photos from the southern west of Portugal on a Spring week."
 tags = [

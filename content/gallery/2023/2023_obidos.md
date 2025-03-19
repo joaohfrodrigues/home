@@ -1,6 +1,6 @@
 +++
 author = "João Fialho Rodrigues"
-title = "Óbidos 2023"
+title = "23' Óbidos"
 date = "2023-11-15"
 description = "Photos from a weekend trip to the medieval town of Óbidos, Portugal"
 tags = [

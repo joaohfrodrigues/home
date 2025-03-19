@@ -1,7 +1,6 @@
 +++
 title = "Home"
 author = "João Fialho Rodrigues"
-tags = ["index"]
 +++
 
 <div class="welcome-message">
