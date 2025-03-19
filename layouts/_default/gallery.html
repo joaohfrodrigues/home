@@ -1,0 +1,7 @@
+{{ define "main" }}
+<div class="gallery">
+  {{ range .Paginator.Pages }}
+    {{ partial "gallery-card.html" . }}
+  {{ end }}
+</div>
+{{ end }}

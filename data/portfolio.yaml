@@ -1,6 +1,6 @@
 portfolioitems:
   # portfolio category
-  - title: Photography
+  - title: 
     # items within a category
     portfolioitem:
       - name: Italy 2024

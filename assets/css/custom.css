@@ -53,23 +53,3 @@
     max-width: 800px; /* Optional: Limit the width for better readability */
 }
 
-.portfolio--compact {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-bottom: 20px; /* Adjust spacing between tiles */
-  }
-  
-  .portfolio__image-wrapper {
-    flex: 1;
-    margin-right: 10px; /* Adjust spacing between image and text */
-  }
-  
-  .portfolio__description {
-    flex: 2;
-    margin-left: 10px; /* Adjust spacing between text and image */
-  }
-  
-  .portfolio__button-wrapper {
-    margin-top: 10px; /* Adjust spacing above the button */
-  }

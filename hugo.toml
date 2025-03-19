@@ -41,11 +41,11 @@ summarylength = 10
   author = "João Rodrigues"
   description = "Data Engineer"
   profilePicture = "images/profile.jpg"
-  mainSections = ["post"]
+  mainSections = ["blog", "gallery"]
   contentratio = 0.8
   relatedPosts = true
   numberOfRelatedPosts = 3
-  customCSS = ["css/custom.css"]
+  customCSS = ["css/custom.css", "css/gallery.css"]
   showReadingTime = true
 
 [[params.socialIcons]]
@@ -81,10 +81,10 @@ summarylength = 10
   name = "Blog"
   identifier = "blog"
   weight = 3
-  url = "/post/blog/"
+  url = "/blog/"
 
   [[menu.main]]
-  name = "Photography"
-  identifier = "photography"
+  name = "Gallery"
+  identifier = "gallery"
   weight = 4
-  url = "/post/photography/"
+  url = "/gallery/"

@@ -1,0 +1,22 @@
+<div class="gallery-card">
+  <a href="{{ .Permalink }}">
+    {{ $thumbnailUrl := .Params.thumbnail }}
+    {{ if $thumbnailUrl }}
+      {{ if or (strings.HasPrefix $thumbnailUrl "http://") (strings.HasPrefix $thumbnailUrl "https://") }}
+        <img src="{{ $thumbnailUrl }}" alt="{{ .Title }}" class="gallery-card-image">
+      {{ else }}
+        <img src="{{ $thumbnailUrl | relURL }}" alt="{{ .Title }}" class="gallery-card-image">
+      {{ end }}
+    {{ else }}
+      <!-- Use default image if no thumbnail is defined -->
+      <img src="{{ "images/default-card.jpg" | relURL }}" alt="{{ .Title }}" class="gallery-card-image">
+    {{ end }}
+    <div class="gallery-card-content">
+      <h3>{{ .Title }}</h3>
+      <div class="gallery-card-date">{{ .Date.Format "January 2, 2006" }}</div>
+      {{ with .Page.Params.Tags }}
+        {{ partial "taxonomy/tags.html" . }}
+      {{ end }}
+    </div>
+  </a>
+</div>

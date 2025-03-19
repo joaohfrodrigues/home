@@ -5,6 +5,6 @@ tags = ["index"]
 +++
 
 <div class="welcome-message">
-  <h1>Welcome to My Personal Blog!</h1>
-  <p>Explore my journey as a Data Engineer, my photography adventures, and much more.</p>
+  <h1>Personal Blog</h1>
+  <p>Check out the recent posts or scroll through the Blog and Gallery</p>
 </div>
