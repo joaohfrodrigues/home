@@ -1,0 +1,33 @@
+portfolioitems:
+  # portfolio category
+  - title: Photography
+    # items within a category
+    portfolioitem:
+      - name: Italy 2024
+        image: 'https://images.unsplash.com/photo-1742296701073-e3053dc3c5d3'
+        link: '/series/italy/'
+        description: 'A photographic journey through the scenic landscapes of Italy.'
+        tags:
+          - Photography
+          - Travel
+        status: 'Finished'
+        start: '2024 June'
+
+      - name: Costa Vicentina 2024
+        link: '/post/photography/2024/202405_costa_vicentina/'
+        description: 'Discovering the wild beauty of Costa Vicentina, Portugal.'
+        tags:
+          - Photography
+          - Coastline
+        status: 'Finished'
+        start: '2024 May'
+
+      - name: Óbidos 2023
+        image: 'https://images.unsplash.com/photo-1742122208689-6f1f093a8e54'
+        link: '/post/photography/2023/2023_obidos/'
+        description: 'Exploring the medieval charm of Óbidos, Portugal.'
+        tags:
+          - Photography
+          - Architecture
+        status: 'Finished'
+        start: '2023 November'
