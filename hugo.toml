@@ -49,9 +49,9 @@ summarylength = 10
   showReadingTime = true
   contactFormAction = "https://api.web3forms.com/submit"
   favicon = "favicons/"
-  sideBarSearch = true
-  sideBarCategories = true
-  sideBarTags = true
+  # sideBarSearch = true
+  # sideBarCategories = true
+  # sideBarTags = true
 
 [[params.socialIcons]]
   icon = "fab fa-linkedin"
