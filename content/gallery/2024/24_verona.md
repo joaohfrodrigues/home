@@ -1,14 +1,14 @@
 +++
 author = "João Fialho Rodrigues"
 title = "24' Verona"
-date = "2024-06-01"
+date = "2024-06-14"
 description = "Visiting Verona, a beautiful city in the north of Italy"
 tags = [
-    "italy", "verona", "travel"
+    "italy", "verona"
 ]
 categories = ["photography"]
 thumbnail= "https://images.unsplash.com/photo-1742296701073-e3053dc3c5d3"
-series = 'italy'
+series = ['24italy']
 +++
 
 In this 1-week trip to Italy, Mariana and me visited some friends in Milan and Verona, before going to Venezia for the weekend.

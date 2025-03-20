@@ -1,12 +1,13 @@
 +++
 author = "João Fialho Rodrigues"
 title = "24' Costa Vicentina"
-date = "2024-05-15"
+date = "2024-05-18"
 description = "Photos from the southern west of Portugal on a Spring week."
 tags = [
-    "portugal", "travel"
+    "portugal"
 ]
 categories = ["photography"]
+thumbnail = "https://images.unsplash.com/photo-1742466853437-3458db3920d9"
 +++
 
 The journey starts with the last photo I took in the trip. From the top of the walls of Sines' castle, two life lines departing from each other.
