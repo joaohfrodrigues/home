@@ -3,9 +3,8 @@ title = "Home"
 author = "João Fialho Rodrigues"
 +++
 
-
-
-<div class="welcome-message">
-  <h1>Personal Blog</h1>
-  <p>Software Engineering, Photography and more</p>
+<div class="hero-section">
+  <div class="hero-content">
+    <h1>Development, Photography, and More</h1>
+  </div>
 </div>
