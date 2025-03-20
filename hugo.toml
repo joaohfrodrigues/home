@@ -1,4 +1,4 @@
-baseURL = 'https://joaohfrodrigues.github.io/'
+baseURL = 'https://joaohfrodrigues.com/'
 languageCode = 'en'
 theme='anatole'
 title = 'Home'
@@ -21,7 +21,7 @@ summarylength = 10
 
 [pagination]
   disableAliases = false
-  pagerSize = 5
+  pagerSize = 8
   path = 'page'
 
 [related]
@@ -45,8 +45,13 @@ summarylength = 10
   contentratio = 0.8
   relatedPosts = true
   numberOfRelatedPosts = 3
-  customCSS = ["css/custom.css", "css/gallery.css", "css/sidebar.css"]
+  customCSS = ["css/custom.css","css/category.css" , "css/gallery.css", "css/sidebar.css"]
   showReadingTime = true
+  contactFormAction = "https://api.web3forms.com/submit"
+  favicon = "favicons/"
+  sideBarSearch = true
+  sideBarCategories = true
+  sideBarTags = true
 
 [[params.socialIcons]]
   icon = "fab fa-linkedin"
@@ -59,9 +64,9 @@ summarylength = 10
   url = "https://github.com/joaohfrodrigues"
 
 [[params.socialIcons]]
-  icon = "fas fa-envelope"
-  title = "e-mail"
-  url = "mailto:joao.fialhorodrigues@gmail.com"
+  icon = "fab fa-unsplash"
+  title = "Unsplash"
+  url = "https://unsplash.com/@joaohfrodrigues"
 
 # MENUS
 [menu]
@@ -88,3 +93,12 @@ summarylength = 10
   identifier = "gallery"
   weight = 4
   url = "/gallery/"
+
+  [[menu.main]]
+  name = "Contact"
+  identifier = "contact"
+  weight = 5
+  url = "/contact/"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

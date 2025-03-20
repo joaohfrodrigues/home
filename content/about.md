@@ -1,5 +1,7 @@
 ---
-title: "About Me"
+author: João Fialho Rodrigues
+title: About Me
+description: Get to know the author
 date: 2025-03-19
 ---
 

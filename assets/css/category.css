@@ -1,0 +1,43 @@
+.category {
+    display: inline-block; /* Ensure categories are inline elements */
+    margin: 5px 10px; /* Add spacing between categories */
+    padding: 5px 10px; /* Add padding for better spacing */
+    border-radius: 5px; /* Keep the rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-size: 0.9em; /* Ensure consistent font size */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effects */
+  }
+  
+.category:hover {
+filter: brightness(0.95); /* Slightly darken on hover */
+}
+
+.category-count {
+font-size: 0.8em; /* Smaller font size for the count */
+color: inherit; /* Inherit the text color */
+}
+
+.category[href="/categories/development/"] {
+    background-color: #A7C7E7; /* Soft pastel blue */
+    color: #1E3A5F !important; /* Dark blue text for contrast */
+}
+
+.category[href="/categories/design/"] {
+    background-color: #B8E0D2; /* Soft pastel green */
+    color: #1E4D3A !important; /* Dark green text for contrast */
+}
+
+.category[href="/categories/photography/"] {
+    background-color: #FBE7C6; /* Soft pastel yellow */
+    color: #5A4A1E !important; /* Dark brown text for contrast */
+}
+
+.category[href="/categories/travel/"] {
+    background-color: #D4C1EC; /* Soft pastel purple */
+    color: #3A2F5F !important; /* Dark purple text for contrast */
+}
+
+.category[href="/categories/nature/"] {
+    background-color: #F5C6D6; /* Soft pastel pink */
+    color: #5F1E3A !important; /* Dark red text for contrast */
+}
