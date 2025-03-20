@@ -1,4 +1,4 @@
-baseURL = 'https://joaohfrodrigues.com/'
+baseURL = 'https://joaohfrodrigues.github.io/'
 languageCode = 'en'
 theme='anatole'
 title = 'Home'
