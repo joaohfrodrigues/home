@@ -49,7 +49,7 @@ summarylength = 10
   showReadingTime = true
   contactFormAction = "https://api.web3forms.com/submit"
   favicon = "favicons/"
-  sideBarSearch = true
+  sideBarSearch = false
   sideBarCategories = true
   sideBarTags = true
 
