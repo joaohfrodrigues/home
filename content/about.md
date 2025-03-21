@@ -9,4 +9,5 @@ I am a Data Engineer based in Lisbon, Portugal, with expertise in building scala
 
 Beyond my professional life, I am a hobbyist photographer and curious chef.
 
+
 <img src="../images/default-card.jpg" width="50%">
