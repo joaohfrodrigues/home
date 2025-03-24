@@ -52,6 +52,7 @@ summarylength = 10
   sideBarSearch = false
   sideBarCategories = true
   sideBarTags = true
+  gtagId = "G-6ESCJXBTRQ"
 
 [[params.socialIcons]]
   icon = "fab fa-linkedin"
