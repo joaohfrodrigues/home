@@ -1,7 +1,7 @@
 +++
 author = "João Fialho Rodrigues"
 title = "Building this website: Previous iterations"
-date = "2025-03-16"
+date = "2025-03-24"
 description = "The story behind this site and how it was built"
 tags = [
     "hugo", "website"
@@ -22,7 +22,9 @@ The idea of having a personal website has been in my mind for a long time since 
 
 The version of the website you are seeing now is the fourth iteration of a process that started in 2017 while I was completing my MSc. in Electrical and Computer Engineering. The previous iterations are described in the following sub-sections, alongside its pros and cons.
 
-## ReactJS
+## Previous iterations
+
+### ReactJS
 
 While completing my Masters degree I looked into [ReactJS](https://react.dev/) to create a CV simple website using GitHub pages. Trying React for the first time allowed me to get a glimpse of front-end development which was not part of my MSc. course.
 
@@ -32,16 +34,22 @@ I also became frustratingly aware of all component dependencies and how difficul
 
 In the end, I decided it would be worthwhile to give up part of the personalization and flexibility and go with a more structured and pre-defined approach.
 
-## Wordpress
+### Wordpress
 
-Afterward I performed a full 180º turn and used Wordpress.com to host a personal blog on their free tier with a free wordpress.com domain. The upside was the incredible amount of features out of the box. However, everything was quite straightforward and for the purpose I wanted, having such a heavy backend was ultimately unnecessary to meet my goals. Additionally, a lot of personalization features of Wordpress are behind a subscription paywall
+Afterward I performed a full 180º turn and used Wordpress.com to host a personal blog on their free tier with a free wordpress.com domain. The upside was the incredible amount of features out of the box. However, everything was quite straightforward and for the purpose I wanted, having such a heavy backend was ultimately unnecessary to meet my goals. Additionally, a lot of personalization features of Wordpress are behind a subscription paywall.
 
-*Don't confuse [Wordpress.com](https://wordpress.com/), which sells multiple services and hosting on top of the open-sourced platform [Wordpress.org](https://wordpress.org/).*
+*[Wordpress.com](https://wordpress.com/) multiple services and hosting on top of the open-sourced platform [Wordpress.org](https://wordpress.org/).*
 
 I still consider Wordpress, either in its open-source form or the full-fledge feature heavy option from Wordpress.com to be a good option for a project of this sort, specially when one has to consider scalability and for other types of businesses.
 
-## Notion
+### Notion
 
 I have been using Notion with more or less recurrence for two years now, and its simple organization and powerful embedded databases seemed to me like great potential to be used as website pages. Notion supports hosting a website on top of some directory you have on your current space, but most features are behind a paywall, much like wordpress, and the Notion website by default is just like any Notion notebook, which becomes rather dull compared to other options.
 
-I am sure that there are other interesting options to be used, I hope that these few examples can help the reader decide on the best approach for him/her.
+I am sure that there are other interesting options to be used, I hope that these few examples can help the reader decide on the best approach.
+
+## Current state
+
+After starting an stopping this project, this is where it is now. I had again gone through a couple of hours of searching on Google, Reddit and now also ChatGPT and Gemini as my project buddies, and decided to go with Hugo as a static website builder, since I found the community to be active, the setup to be simple yet capable of much customization and its themes to be attractive, offering all the requirements I had listed before.
+
+I will give a more in-depth overview of the current implementation of this website in a future post.
