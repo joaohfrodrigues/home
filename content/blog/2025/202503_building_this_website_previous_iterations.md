@@ -7,7 +7,7 @@ tags = [
     "hugo", "website"
 ]
 categories = ["development"]
-series = "building_this_website"
+series = ["building_this_website"]
 toc = true
 +++
 
