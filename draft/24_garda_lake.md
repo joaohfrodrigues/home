@@ -10,5 +10,3 @@ categories = ["photography"]
 series = ['24italy']
 thumbnail = "https://images.unsplash.com/photo-1742462405116-1dfe67b06012"
 +++
-
-TBD

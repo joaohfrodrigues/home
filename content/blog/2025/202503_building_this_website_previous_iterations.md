@@ -9,6 +9,7 @@ tags = [
 categories = ["development"]
 series = ["building_this_website"]
 toc = true
+article = true
 +++
 
 The idea of having a personal website has been in my mind for a long time since I was doing my graduation. After some blogs while I was a kid, I stopped writing in a personal space as most of us transitioned into the most used social networks and long texts became old-fashioned. The creation and management of a personal website had a couple of goals, in my mind, as listed below.
