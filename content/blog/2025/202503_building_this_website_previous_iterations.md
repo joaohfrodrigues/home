@@ -12,7 +12,13 @@ toc = true
 article = true
 +++
 
-The idea of having a personal website has been in my mind for a long time since I was doing my graduation. After some blogs while I was a kid, I stopped writing in a personal space as most of us transitioned into the most used social networks and long texts became old-fashioned. The creation and management of a personal website had a couple of goals, in my mind, as listed below.
+This is first blog article of my personal website. My writing practice is not what it once was and that is part of what brings me here. I remember the good-old days of writing in SAPO Blogs, a portuguese Blog hosting platform, with my friends in grad school.
+
+Later, while graduating, I thought it would be a good excuse to learn some front-end programming, but the overhead of keeping it updated and running was too high for me.
+
+Recently I was scrolling on Reddit and found [Hugo](https://gohugo.io/), an open source and easy to set-up static website generator written in Go. I decided to give it a chance, and here we are.
+
+The goals I set to myself to reach while building this space were defined since the beginning although the priority of each of them dynamically changed over time. We will go over those in this post, and also the previous iterations that led me here.
 
 ## Goals
 
@@ -45,7 +51,7 @@ I still consider Wordpress, either in its open-source form or the full-fledge fe
 
 ### Notion
 
-I have been using Notion with more or less recurrence for two years now, and its simple organization and powerful embedded databases seemed to me like great potential to be used as website pages. Notion supports hosting a website on top of some directory you have on your current space, but most features are behind a paywall, much like wordpress, and the Notion website by default is just like any Notion notebook, which becomes rather dull compared to other options.
+I have been using [Notion](https://www.notion.com/) with more or less recurrence for two years now, and its simple organization and powerful embedded databases seemed to me like great potential to be used as website pages. Notion supports hosting a website on top of some directory you have on your current space, but most features are behind a paywall, much like wordpress, and the Notion website by default is just like any Notion notebook, which becomes rather dull compared to other options.
 
 I am sure that there are other interesting options to be used, I hope that these few examples can help the reader decide on the best approach.
 
