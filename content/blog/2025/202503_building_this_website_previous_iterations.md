@@ -6,7 +6,7 @@ description = "The story behind this site and how it was built"
 tags = [
     "hugo", "website"
 ]
-categories = ["development"]
+categories = ["website"]
 series = ["building_this_website"]
 toc = true
 article = true

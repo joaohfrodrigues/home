@@ -17,12 +17,12 @@ font-size: 0.8em; /* Smaller font size for the count */
 color: inherit; /* Inherit the text color */
 }
 
-.category[href="/categories/development/"] {
+.category[href="/categories/data engineering/"] {
     background-color: #A7C7E7; /* Soft pastel blue */
     color: #1E3A5F !important; /* Dark blue text for contrast */
 }
 
-.category[href="/categories/design/"] {
+.category[href="/categories/website/"] {
     background-color: #B8E0D2; /* Soft pastel green */
     color: #1E4D3A !important; /* Dark green text for contrast */
 }
