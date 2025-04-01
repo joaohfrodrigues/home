@@ -1,7 +1,7 @@
 +++
 title = "Home"
 author = "João Fialho Rodrigues"
-images = ["static/images/profile.jpg"]
+images = ["images/profile.jpg"]
 +++
 
 <div class="hero-section">
