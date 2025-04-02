@@ -11,7 +11,7 @@ thumbnail= "https://images.unsplash.com/photo-1742463782524-edc501533e7c"
 series = ['24italy']
 +++
 
-This was me and Mariana's first trip outside Portugal and Venice proved to be a great decision. The weather was great, as you'll certainly tell from the pictures. We also visited the Doge palace, something that I missed the last time I visited Venice.
+i had visited Venice once before and although generally there are mixed reviews about the city, both because of mass tourism and smelly streets when low tide, once again it proved to be a great decision. The weather was great, as you'll certainly tell from the pictures. We also visited the Doge palace, something that I missed the last time I visited Venice.
 
 Strolling through the city at night also showed a different but equally gorgeous perspective of the channel city.
 
