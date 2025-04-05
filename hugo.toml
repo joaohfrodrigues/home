@@ -41,7 +41,7 @@ summarylength = 10
   author = "João Rodrigues"
   description = "Data Engineer"
   profilePicture = "images/profile.jpg"
-  mainSections = ["blog", "gallery"]
+  mainSections = ["post"]
   contentratio = 0.8
   relatedPosts = true
   numberOfRelatedPosts = 3
@@ -53,7 +53,6 @@ summarylength = 10
   sideBarCategories = true
   sideBarTags = true
   gtagId = "G-6ESCJXBTRQ"
-  postSectionName = "blog"
 
 [[params.socialIcons]]
   icon = "fab fa-linkedin"
@@ -86,15 +85,15 @@ summarylength = 10
 
   [[menu.main]]
   name = "Blog"
-  identifier = "blog"
+  identifier = "post"
   weight = 3
-  url = "/blog/"
+  url = "/post/blog/"
 
   [[menu.main]]
   name = "Gallery"
   identifier = "gallery"
   weight = 4
-  url = "/gallery/"
+  url = "/post/gallery/"
 
   [[menu.main]]
   name = "Contact"
