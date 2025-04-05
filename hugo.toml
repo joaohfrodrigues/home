@@ -53,6 +53,7 @@ summarylength = 10
   sideBarCategories = true
   sideBarTags = true
   gtagId = "G-6ESCJXBTRQ"
+  postSectionName = "blog"
 
 [[params.socialIcons]]
   icon = "fab fa-linkedin"
@@ -103,3 +104,11 @@ summarylength = 10
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[params.giscus]
+  repo = "joaohfrodrigues/home"
+  repoID = "R_kgDONZEYcA"
+  category = "Comments"
+  categoryID = "DIC_kwDONZEYcM4Cozmv"
+  # inputPosition = "top"
+  # loading = "lazy"
